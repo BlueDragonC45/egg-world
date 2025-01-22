@@ -2,10 +2,10 @@ import Eggy from "./Eggy";
 
 function Table() {
     return (
-      <div className="h-[60vh] w-screen justify-center bg-cyan-300">
-        <Eggy/>
-      </div>
+        <div className="flex flex-wrap h-[75vh] w-screen place-content-center bg-cyan-300">
+            <Eggy />
+        </div>
     );
-  }
-  
-  export default Table;
+}
+
+export default Table;
