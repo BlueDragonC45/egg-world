@@ -1,12 +1,12 @@
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import Table from './Components/Table';
+import Home from './Components/Home';
 
 function App() {
   return (
     <div className='h-screen'>
       <Header/>
-      <Table/>
+      <Home/>
       <Footer/>
     </div>
 
